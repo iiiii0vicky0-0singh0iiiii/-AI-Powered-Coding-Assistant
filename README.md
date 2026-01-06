@@ -8,7 +8,7 @@
 
 ### **📽️ Demo**
 ![Project Demo](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)  
-*A GIF showcasing code analysis, live suggestions, and syntax highlighting.*
+
 
 ---
 
