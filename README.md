@@ -1,8 +1,6 @@
 
 
-![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat&logo=python)
-![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?style=flat&logo=streamlit)
-![OpenAI](https://img.shields.io/badge/Powered%20by-GPT_API-orange?style=flat&logo=openai) 
+
 
  # 🚀 AI-Powered Coding Assistant
 
@@ -11,6 +9,10 @@ A smart, interactive coding environment built with **Python** and **Streamlit**.
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat&logo=python)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?style=flat&logo=streamlit)
+![OpenAI](https://img.shields.io/badge/Powered%20by-GPT_API-orange?style=flat&logo=openai) 
 
 ## ✨ Key Features
 
