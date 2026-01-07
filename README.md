@@ -1,4 +1,4 @@
-# 🚀 AI-Powered Coding Assistant 🌟
+
 
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat&logo=python)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?style=flat&logo=streamlit)
