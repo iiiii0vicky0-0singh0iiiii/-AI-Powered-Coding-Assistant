@@ -2,72 +2,68 @@
 
 ![Python](https://img.shields.io/badge/Made%20with-Python-blue?style=flat&logo=python)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red?style=flat&logo=streamlit)
-![OpenAI](https://img.shields.io/badge/Powered%20by-GPT_API-orange?style=flat&logo=openai)
+![OpenAI](https://img.shields.io/badge/Powered%20by-GPT_API-orange?style=flat&logo=openai) 
 
----
+ # 🚀 AI-Powered Coding Assistant
 
-### **📽️ Demo**
-![Project Demo](https://media.giphy.com/media/3o7abldj0b3rxrZUxW/giphy.gif)  
+A smart, interactive coding environment built with **Python** and **Streamlit**. This application acts as your personal "Co-pilot," utilizing OpenAI's GPT models to generate, explain, and debug code in real-time within a syntax-highlighted editor.
 
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
----
+## ✨ Key Features
 
-## **📖 Overview**
-**AI-Powered Coding Assistant** is a tool designed to assist developers by:
-- Explaining errors in code and suggesting improvements.
-- Providing hints for coding problems and algorithm design.
-- Enabling syntax-highlighted, live coding with real-time suggestions.
+The application is organized into three intuitive workflows:
 
----
+* **✨ Auto-Complete / Generate:** Describe your task in plain English (e.g., *"Create a Python function to check for palindromes"*), and the AI generates clean, ready-to-use code.
+* **🧐 Explain Code:** Paste complex code snippets, and the AI will break down the logic step-by-step to help you understand it.
+* **🐛 Debug & Fix:** Paste broken code along with an error message. The AI analyzes the issue, provides a corrected version, and explains the fix.
 
-## **✨ Features**
-- 💡 **Code Analysis**: Explain and fix errors in your code instantly.
-- 🧠 **AI Hints**: Get step-by-step guidance on coding challenges.
-- 🎨 **Syntax Highlighting**: Write and edit code in an interactive editor.
-- ⚡ **Multi-Language Support**: Works with Python, Java, C++, and more!
+## 🛠️ Tech Stack
 
----
+* **Frontend:** [Streamlit](https://streamlit.io/)
+* **Code Editor:** [Streamlit-Ace](https://github.com/okld/streamlit-ace) (Monaco-style editor)
+* **AI Model:** OpenAI API (GPT-4 / GPT-3.5)
+* **Environment Mgmt:** Python Dotenv
 
-## **🔧 Tech Stack**
-- **Frontend**: [Streamlit](https://streamlit.io/)
-- **AI**: [OpenAI GPT API](https://platform.openai.com/) or [Hugging Face Transformers](https://huggingface.co/transformers/)
-- **Code Editor**: [Streamlit Ace](https://github.com/streamextra/streamlit-ace)
-- **Deployment**: Streamlit Cloud / Docker
+## 📋 Prerequisites
 
----
+* Python 3.8+
+* An OpenAI API Key (See [OpenAI Platform](https://platform.openai.com/))
 
-## **🚀 Getting Started**
+## ⚙️ Installation
 
-### **Prerequisites**
-- Python 3.8+
-- OpenAI API Key
+1.  **Clone the repository** (if applicable):
+    ```bash
+    git clone [https://github.com/your-username/ai-coding-assistant.git](https://github.com/your-username/ai-coding-assistant.git)
+    cd ai-coding-assistant
+    ```
 
-### **Setup**
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ai-coding-assistant.git
-   cd ai-coding-assistant
-Install dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Add your OpenAI API key:
-bash
-Copy
-Edit
-export OPENAI_API_KEY='your_openai_api_key'
-Run the app:
-bash
-Copy
-Edit
+2.  **Install required dependencies:**
+    ```bash
+    pip install streamlit streamlit-ace openai python-dotenv
+    ```
+
+## 🔑 Configuration
+
+You need an OpenAI API Key to run the AI features.
+
+**Recommended Method (`.env` file):**
+1.  Create a file named `.env` in the root folder.
+2.  Add your key inside:
+    ```text
+    OPENAI_API_KEY=sk-proj-xxxxxxxxxxxxxxxxxxxxxxxx
+    ```
+
+**Alternative Method (UI):**
+If no `.env` file is detected, the application will provide a secure input field in the sidebar to enter your key manually.
+
+## 🚀 Usage
+
+Run the application using Streamlit:
+
+```bash
 streamlit run app.py
-🎯 Future Enhancements
-Add error highlighting directly in the code editor.
-Include performance analysis (time/space complexity).
-Integrate test case execution and validation.
-Expand support for additional programming languages.
-🤝 Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests. Let's make coding more accessible and efficient for everyone.
 
 
